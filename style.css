@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Noto+Sans+Mono&family=Oswald:wght@500&display=swap');
+.texto-imagen{
+    font-family: 'Mukta', sans-serif;
+}
+.bgAguas{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: auto;
+    height: auto;    
+}
