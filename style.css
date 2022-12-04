@@ -9,10 +9,20 @@
   width: auto;
   height: auto;
 }
-@media (max-width: 900px) {
+
+
+@media (max-width: 600px) {
+    p>.hparrafo{
+        font-size: 15px;
+      }
+  }
+@media (max-width: 600px) {
   div > .hola {
     padding: 1rem !important;
-    margin: 2rem !important;
+    margin: .1rem !important;
+  }
+  p>.hparrafo{
+    font-size: 18px;
   }
 }
 @media (max-width: 1050px) {
