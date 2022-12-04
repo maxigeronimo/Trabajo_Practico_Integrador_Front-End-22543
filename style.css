@@ -1,11 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
 
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Noto+Sans+Mono&family=Oswald:wght@500&display=swap');
-.texto-imagen{
-    font-family: 'Mukta', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Noto+Sans+Mono&family=Oswald:wght@500&display=swap");
+.texto-imagen {
+  font-family: "Mukta", sans-serif;
 }
-.bgAguas{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    width: auto;
-    height: auto;    
+.bgAguas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: auto;
+  height: auto;
+}
+@media (max-width: 900px) {
+  div > .hola {
+    padding: 1rem !important;
+    margin: 2rem !important;
+  }
+}
+@media (max-width: 1050px) {
+  div > .hola2 {
+    padding: 1rem !important;
+  }
+  div > .hola3 {
+    padding: 0rem !important;
+  }
+}
+@media (max-width: 1324px) {
+  div > .hola2 {
+    padding: initial !important;
+  }
 }
